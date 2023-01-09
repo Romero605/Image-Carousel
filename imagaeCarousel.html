@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="imageCarousel.css">
+    <title>Image Carousel</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;"> Florida Trip!!</h1>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img class="fade" src="trip1.jpg" alt="" width="100%">
+        </div>
+        <div class="image">
+            <img class="fade" src="trip2.jpg" alt="" width="100%">
+        </div>
+        <div class="image">
+            <img class="fade" src="trip3.jpg" alt="" width="100%">
+        </div>
+        <div class="image">
+            <img class="fade" src="trip7.jpg" alt="" width="100%">
+        </div>
+        <div class="image">
+            <img class="fade" src="trip8.jpg" alt="" width="100%">
+        </div>
+        <i id="prev" onclick="show_image(-1)" class="fa-solid fa-caret-left"></i>
+        <i id="next" onclick="show_image(1)" class="fa-solid fa-caret-right"></i>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <script src="imageCarousel.js"></script>
+</body>
+</html>
